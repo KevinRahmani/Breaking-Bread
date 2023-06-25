@@ -1,0 +1,20 @@
+.contenu {
+    color: #53301c;
+    width: 75%;
+    margin-left: 20%;
+    margin-top: 2%;
+    font-size: larger;
+    position: absolute;
+}
+
+.contenu a {
+    color: #53301c;
+}
+
+.contenu a:link {
+    text-decoration: none;
+}
+
+.contenu a:visited {
+    text-decoration: none;
+}

@@ -1,0 +1,271 @@
+/* RESET DES MARGES */
+body, html
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: #53301c;
+}
+
+.top {
+    background-color: #53301c;
+    width: 100%;
+    height: 5%;
+}
+
+/* PARTIE HEADER PREMIER ENTETE*/
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 217, 217);
+}
+
+.uphead {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo_croissant{
+    margin-left: 1%;
+}
+
+.nom {
+    padding-top: 1.3%;
+    padding-left: 33%;
+    width: 40%;
+}
+
+.nom a {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+/* PARTIE CONNEXION/PANIER*/
+
+.reste {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1.3%;
+    width: 80%;
+    margin-right: 1%;
+}
+
+.reste > div { 
+    margin-left: 2%;
+}
+
+.reste > div > a{
+    text-decoration: none;
+}
+
+.reste i {
+    font-size: 28px;
+}
+
+/*PARTIE HEADER MENU DEROULANT */
+
+.parent_bottomhead {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav {
+    text-align: center;
+}
+
+nav>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+nav>ul>li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+nav>ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.submenu {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav>ul>li>a {
+    padding: 20px 30px;
+    color: black;
+}
+
+nav>ul>li:hover a {
+    padding: 15px 30px 20px 30px;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: black;
+    width: 270px;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+}
+
+
+.menu_categorie:hover {
+    border-top: 4px solid rgb(255, 255, 255);
+    background-color: rgba(112, 165, 209, 0.151);
+}
+
+
+.menu_categorie .submenu {
+    background-color: #c7c7c7;
+}
+
+.submenu li:hover a {
+    color: rgb(235, 232, 232);
+    font-weight: bold;
+}
+
+.menu_categorie .submenu li:hover {
+    background-color: #53301c;
+}
+
+.ensemble {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+.main-menu {
+    z-index: 9999;
+    position: relative;
+    width: 5%;
+    height:452px;
+    background-color: #53301c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: .3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.main-menu:hover {
+    width: 14%;
+    padding-left: 2%;
+    ;
+}
+
+.main-menu li {
+    list-style: none;
+}
+
+.main-menu a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu .menu-item {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: -35%;
+
+}
+
+.main-menu .menu-item:hover {
+    background-color: #c7c7c7;
+    cursor: pointer;
+
+}
+
+.main-menu .menu-item .fa {
+    color: rgb(255, 255, 255);
+    width: 70px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.main-menu .menu-item:hover>.fa {
+    color: #53301c;
+}
+
+.main-menu .menu-item:hover>a {
+    color: #53301c;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+    margin-left: 10%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 10px;
+}
+
+/*FOOTER*/
+.pied {
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 8.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #53301c;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.pied a {
+    color: white;
+}
+
+.mentions {
+    margin-top: 0.4%;
+    margin-bottom: 0.3%;
+}
+
+.copyright {
+    margin-top: 1%;
+}

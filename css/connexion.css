@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*ENCADRE CONNEXION/INSCRIPTION*/
+
+.encadre
+{
+    margin-top: 2%;
+    margin-left: 33%;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#53301c;
+}
+
+.toggleInscr_Connex{
+    margin-top: 1%;
+    position: absolute;
+    width: 320px;
+    height: 460px;
+    background-color: #f0f6fb;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: -10%;
+    left: 28%;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    background-color: #53301c;
+    color: #ffffff;
+}
+
+.titre_connexion
+{
+    padding-left: 10px;
+}
+
+.tab-body {
+    position: relative;  
+    max-height: 320px;
+    padding: 15% 5%;
+    margin-top: 20%;
+    background-color: #fff;
+    color: #53301c;
+    box-shadow: 0px 5px 10px #53301c;
+    border-radius: 30px;
+    font-size: 1rem;
+} 
+
+.row {
+    border-bottom: 1px solid #53301c;
+    padding: 1.8% 0;
+    margin: 20px 0;
+}
+
+.row .input {
+    width: 90%;
+    border: none;
+    outline: none;
+    color: #53301c;
+    font-weight: 750;
+} 
+  
+.btn {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 120px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #53301c;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tab-link {
+    color: #53301c;
+    font-size: small;
+    position: absolute;
+    bottom: 18%;
+}
+
+.tab-link2
+{
+    color: #53301c;
+    font-size: small;
+    position: absolute;
+    bottom: 16%;
+}
+
+.tab-link a, .tab-link2 a
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.notActive{
+    display: none;
+}
+
+/*INSCRIPTION*/
+
+.nom_co
+{
+    display: flex;
+    margin-top: 3%;
+}
+
+.nom_co > input{
+    margin: 7px;
+}
+
+.info_perso
+{
+    margin-top: 8%;
+    font-size: 1rem;
+}
+
+.logo2
+{
+    display: flex;
+    position: absolute;
+    top: -10%;
+    left: 27%;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    background-color: #53301c;
+    color: #ffffff;
+}
+
+.titre_inscription
+{
+    padding-left: 10px;
+}
+
+.annonce
+{
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    height: 40px;
+}
+
+.mail, .sexe, .date_naissance, .adresse, .metier, .mdp
+{
+    margin-top: 5%;
+}
+
+.mail, .adresse, .date_naissance, .sexe, .metier, .mdp
+{
+    font-size: 1rem;
+}
+
+.sexe input, .adresse input, .mdp input
+{
+    margin-left: 32px;
+}
+
+.mail input{
+    margin-left: 30px;
+}
+
+.metier input
+{
+    margin-left: 44px;
+}
+
+.date_naissance
+{
+    display: flex;
+}
+
+.date_naissance input
+{
+    margin-left: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn-submit
+{
+    position: absolute;
+    left: 27%;
+    margin-top: 12%;
+    width: 160px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: #53301c;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/*ERREUR*/
+.erreur
+{
+    width: 320px;
+    font-size: 1rem;
+    color: red;
+    bottom: -20%;
+    position: relative;
+    text-align: center;
+    
+}
+
+.erreur2
+{
+    width: 320px;
+    font-size: 1rem;
+    color: red;
+    bottom: 24%;
+    position: absolute;
+    text-align: center;
+}
+
+.encadreRouge
+{
+    border: 2px solid red;
+}
+
+.encadreVert
+{
+    border: 2px solid green;
+}
+
+/* INFO CLIENT SI CONNECTE */
+
+.info_client{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top:2%;
+    width: 60%;
+}
+
+.info_client h2{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.info_json table{
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+th{
+    background-color:#53301c;
+    height: 30px;
+    color: #fff;
+
+}
+
+td{
+    width: 10%;
+    text-align: center; 
+}
+
+#affiche_coord
+{
+    color:white;
+    background-color:#53301c;
+    width:100%;
+    height:50px;
+    font-size:18px;
+    margin-top:8%;
+    border-radius:15px;
+}
+
+#affiche_coord:hover{
+    cursor: pointer;
+}
+
+.historique_commande{
+    width:90%;
+}
+
+.right_part
+{
+    width:45%;
+    margin-top:-1%;
+}
+
+/* MODIF COORD */
+.change_coord{
+    height: auto;
+    border-radius:15%;
+    padding:6%;
+    border:2px solid #53301c;
+    padding-top:10%;
+}
+
+.histo_change
+{
+    display:flex;
+    flex-direction:row;
+}
+
+.change_coord 
+{
+    margin-top:7%;
+    height:70%;
+    width:110%;
+    margin-left:-10%;
+}
+
+#label
+{
+    color:#53301c;
+    padding:5px;
+    font-size:100%;
+}
+
+#coord_sexe {
+    margin-left: 32.2%;
+    width :211px;
+    background-color: #fff;
+}
+
+#terme
+{
+    margin-top:5px;
+}
+
+.change_coord input{
+    float:right;
+    height:70%;
+    width:50%;
+}
+.choice input{
+    clear: both;
+}
+.choice
+{
+    display:flex;
+    margin-top:10%;
+    height:35px;
+}
+
+#annuler
+{
+    background: linear-gradient(to bottom right, #c70125, #fa8650);
+    color:white;
+    border-radius: 10% 10%;
+    width:40%;
+    margin-left:7%;
+    border: none;
+}
+
+#valider
+{
+    background: linear-gradient(to bottom right, #18b131, #8dff60);
+    color:white;
+    border-radius: 10% 10%;
+    width:40%;
+    margin-left:7%;
+    border: none;
+}
+
+/* ADMIN */
+
+.salutation{
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    margin-top: 4%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.envoyer_mail{
+    display: flex;
+    margin-top: 4%;
+    align-items: center;
+}
+
+.accuse{
+    margin-left: 5%;
+    color: #18b131;
+    font-size: 17px;
+}
+
+.envoyer_mail .description_mail{
+    font-size: 17px;
+}
+
+.envoyer_mail #mail_all {
+    background: linear-gradient(to bottom right, #18b131, #8dff60);
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px 10px;
+    margin-left: 5%;
+}
+
+.choice #valider:not([disabled]):hover{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(23, 228, 33, 0.5), .125rem .125rem 1rem rgba(28, 199, 142, 0.5);
+}
+
+.choice #annuler:not([disabled]):hover, .button-add:not([disabled]):hover, #annuler:not([disabled]):hover, .bg_none button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#mail_all:not([disabled]):hover{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(23, 228, 33, 0.5), .125rem .125rem 1rem rgba(28, 199, 142, 0.5);
+}
+
+.resultat_change{
+    text-align: center;
+    color: #c70125;
+}
+
+/* Back OFFICE */
+
+.jsp{
+    margin-top: 3%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.back_office{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.back_office #form_supp_bo select{
+    margin-left: 5%;
+    border: none;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px 20px;
+    font-size: 17px;
+    height: 30px;
+    background-color: #cfa084;
+    color: #fff;
+}
+
+.back_office #form_supp_produit select{
+    margin-left: 5%;
+    border: none;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px 20px;
+    font-size: 17px;
+    height: 30px;
+    background-color: #cfa084;
+    color: #fff;
+}
+
+.flex_mettre, .flex_mettre2{
+    display: flex;
+    align-items: center;
+}
+
+.flex_mettre2{
+    margin-top: 5%;
+}
+
+#submit_bo, #submit_produit{ 
+    background: linear-gradient(to bottom right, #2cbb44, #247704);
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px 10px;
+    margin-left: 5%;
+}
+
+#submit_bo:not([disabled]):hover,#submit_produit:not([disabled]):hover{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(23, 228, 33, 0.5), .125rem .125rem 1rem rgba(28, 199, 142, 0.5);
+}
+
+#form_supp_bo, #form_supp_produit{
+    display: flex;
+}
+
+.erreur_prod, .erreur_categorie{
+    color: #c70125;
+    margin-left: 2%;
+}

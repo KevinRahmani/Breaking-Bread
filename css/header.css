@@ -1,0 +1,500 @@
+/* RESET DES MARGES */
+
+
+html, body, header
+{
+    height: 100%;
+}
+
+body, html
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* PARTIE HEADER PREMIER ENTETE*/
+.headfirst
+{
+    display:flex;
+    flex-direction:column;
+    height: 34%;
+    background:url(../img/fondhead.jpg);
+    width:100%;
+    position: relative;
+}
+
+.uphead
+{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+.logo
+{
+   width:33%;
+   margin-top: 2.5%;
+}
+
+.logoimg 
+{
+    margin-top:3%;
+    margin-left:3%;
+}
+/* PARTIE NOM SITE ANIMATION */
+.site
+{
+    margin-top: 6%;
+}
+
+#nomSite > mask
+{
+    animation: fill 1.5s forwards 4s;
+}
+#nomSite > path:nth-child(1)
+{
+    stroke-dasharray: 305;
+    stroke-dashoffset: 305;
+    animation: line-anim 2s ease forwards;
+}
+#nomSite > path:nth-child(2)
+{
+    stroke-dasharray: 275;
+    stroke-dashoffset: 275;
+    animation: line-anim 2s ease forwards 0.2s;
+}
+#nomSite > path:nth-child(3)
+{
+    stroke-dasharray: 233;
+    stroke-dashoffset: 233;
+    animation: line-anim 2s ease forwards 0.4s;
+}
+#nomSite > path:nth-child(4)
+{
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#nomSite > path:nth-child(5)
+{
+    stroke-dasharray: 257;
+    stroke-dashoffset: 257;
+    animation: line-anim 2s ease forwards 0.8s;
+}
+#nomSite > path:nth-child(6)
+{
+    stroke-dasharray: 114;
+    stroke-dashoffset: 114;
+    animation: line-anim 2s ease forwards 1.0s;
+}
+#nomSite > path:nth-child(7)
+{
+    stroke-dasharray: 303;
+    stroke-dashoffset: 303;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#nomSite > path:nth-child(8)
+{
+    stroke-dasharray: 319;
+    stroke-dashoffset: 319;
+    animation: line-anim 2s ease forwards 1.4s;
+}
+#nomSite > path:nth-child(9)
+{
+    stroke-dasharray: 306;
+    stroke-dashoffset: 306;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+#nomSite > path:nth-child(10)
+{
+    stroke-dasharray: 275;
+    stroke-dashoffset: 275;
+    animation: line-anim 2s ease forwards 2s;
+}
+#nomSite > path:nth-child(11)
+{
+    stroke-dasharray: 233;
+    stroke-dashoffset: 233;
+    animation: line-anim 2s ease forwards 2.2s;
+}
+#nomSite > path:nth-child(12)
+{
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    animation: line-anim 2s ease forwards 2.4s;
+}
+#nomSite > path:nth-child(13)
+{
+    stroke-dasharray: 285;
+    stroke-dashoffset: 285;
+    animation: line-anim 2s ease forwards 2.6s;
+}
+
+/* PARTIE CONNEXION/PANIER*/
+.righthead
+{
+    margin-top: -5%;
+    display:flex;
+    flex-direction:column;
+    width:33%;
+}
+
+.righthead div {
+    padding-right:5%;
+    text-align:right
+}
+
+.righthead .panier {
+    padding-top:22%;
+    margin-bottom:3%;
+}
+
+.deconnexion{
+    margin-top: 3%;
+}
+
+.righthead div a 
+{
+    text-decoration:none;
+    color:white;
+}
+
+.icone
+{
+    font-size: 16px;
+    color: #fff;
+}
+
+/*PARTIE HEADER MENU DEROULANT */
+
+.parent_bottomhead
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav
+{
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+nav > ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li
+{
+    list-style-type: none;
+    font-size:18px;
+}
+
+nav > ul > li
+{
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+nav > ul::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.submenu
+{
+    display: none;
+}
+
+nav input[type=checkbox]
+{
+    display: none;
+}
+
+nav label
+{
+    display: none;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav > ul > li > a 
+{
+    padding: 20px 30px;
+    color: white;
+}
+
+nav > ul > li:hover a 
+{
+    padding: 15px 30px 20px 30px;
+}
+
+nav li:hover .submenu
+{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.submenu li a 
+{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: black;
+    width: 270px;
+}
+
+.submenu li
+{
+    border-bottom: 1px solid #CCC;
+}
+
+.menu_categorie:hover
+{
+    border-top: 4px solid rgb(255, 255, 255);
+    background-color: rgba(112, 165, 209, 0.151);
+}
+
+.menu_categorie .submenu
+{
+    background-color: #c7c7c7;
+}
+
+.submenu li:hover a 
+{
+    color: rgb(235, 232, 232);
+    font-weight: bold;
+}
+
+.menu_categorie .submenu li:hover{
+    background-color: #53301c;
+}
+
+nav input[type=checkbox]:checked ~ ul
+{
+    display: block;
+}
+
+.ensemble
+{
+    width: 100%;
+    height: 57.5%;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    margin-top: 1%
+}
+
+.main-menu{
+    width: 5%;
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:#53301c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+    margin-top:2.2%;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition: .3s ease;
+}
+
+.main-menu:hover{
+    width : 14%;
+    padding-left:2%;;
+}
+
+.main-menu li 
+{
+    list-style:none;
+}
+
+.main-menu a 
+{
+    font-size: 15px;
+    color: white;
+    text-decoration:none;
+}
+
+.main-menu .menu-item{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left:-35%;
+
+}
+
+.main-menu .menu-item:hover{
+    background-color: #c7c7c7;
+    cursor: pointer;
+
+}
+
+.main-menu .menu-item .fa{
+    color: rgb(255, 255, 255);
+    width:70px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.main-menu .menu-item:hover > .fa{
+    color: #53301c;
+}
+
+.main-menu .menu-item:hover > a
+{
+    color: #53301c;
+    font-size:17px;
+    padding-left:10px;
+}
+
+
+/*FOOTER*/
+.pied
+{   color: white;
+    width: 100%;
+    height: 8.5%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #53301c;
+    text-align: center;
+}
+
+.pied a{
+    color: white;
+}
+
+.mentions{ 
+    margin-top: 0.4%;
+    margin-bottom: 0.3%;
+}
+
+.copyright{
+    margin-top:1%;
+}
+
+/*RESPONSIVE*/
+/*Media Screen*/
+@media screen and (max-width: 800px), 
+       screen and (max-height: 700px)
+{
+    .pied
+    {   color: white;
+        width: 100%;
+        height: 7.5%;
+        background-color: #53301c;
+    }
+
+    .pied a{
+        color: white;
+    }
+
+    .mentions{ 
+        margin-top: 0.4%;
+        margin-bottom: 0.3%;
+    }
+
+    .copyright{
+        margin-top: -0.3%;
+    }
+
+    .headfirst
+    {
+        height: 100%;
+        background-size: cover;
+    }
+    .bottomhead
+    {
+        margin-left: 0;
+    }
+    .menu-mobile
+    {
+        display:block;
+        color: #FFF;
+        background-color: #53301c;
+        text-align: center;
+        padding: 12px 0px;
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+    .ensemble
+    {
+        display: none;
+    }
+    
+    .menu_Accueil, .menu_Patisserie, .menu_Viennoiserie, .menu_Sandwich, .menu_form
+    {
+        background-color: #53301c;
+        margin-left: 30%;
+    }
+    .pied
+    {
+        position: absolute;
+        bottom: 0;
+    }
+    nav ul 
+    {
+        display: none;
+    }
+    nav ul li, nav ul li a 
+    {
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a, nav ul li:hover a
+    {
+        padding: 10px 0px;
+    }
+    nav li:hover .submenu
+    {
+        display:block;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .righthead
+    {
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+
+}
+
+@keyframes line-anim
+{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill{
+    from{
+        fill:transparent;
+    }
+    to{
+        fill: rgb(255, 255, 255);
+    }
+}

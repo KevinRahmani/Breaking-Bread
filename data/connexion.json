@@ -1,0 +1,38 @@
+[
+    {
+        "Nom": "admin",
+        "Prenom": "eisti",
+        "Mail": "admin.eisti@cy.fr",
+        "Password": "$2y$10$BBDczJN7qduy3Lf1HXspZ.eOF7h4NzPT4nEYZHF1w7efDKlnYnN12",
+        "Sexe": "Homme",
+        "Naissance": "1999-01-01",
+        "Adresse": "Avenue du Parc",
+        "Metier": "Chomeur",
+        "code_client": "628cfb373faed9.36490951",
+        "historique": "<br><br><u><b>Nom du produit<\/b><\/u> : Pain au raisin<br><u><b>Quantit\u00e9<\/b><\/u> : 5_"
+    },
+    {
+        "Nom": "RAHMANI",
+        "Prenom": "Kevin",
+        "Mail": "rahmani.kevin9@gmail.com",
+        "Password": "$2y$10$fmM8zH4niFqVo9hK.n67fuL6FHx42wErAkezHzEi7KVsayIOk4NM.",
+        "Sexe": "Homme",
+        "Naissance": "2002-05-04",
+        "Adresse": "16 rue de Rivoli",
+        "Metier": "Responsable cyber-s&eacute;curit&eacute;",
+        "code_client": "628fe6032bde35.32684198",
+        "historique": "<br><br><u><b>Nom du produit<\/b><\/u> : Pain Suisse<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Croissant<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Sandwich de la mer<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Sandwich Parisien<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Sandwich au Bacon<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Charlotte au fraises<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Tarte aux pommes<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Profiteroles<br><u><b>Quantit\u00e9<\/b><\/u> : 2_<br><br><u><b>Nom du produit<\/b><\/u> : Croissant<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Sandwich Parisien<br><u><b>Quantit\u00e9<\/b><\/u> : 3_<br><br><u><b>Nom du produit<\/b><\/u> : Croissant<br><u><b>Quantit\u00e9<\/b><\/u> : 3_"
+    },
+    {
+        "Nom": "Bergere",
+        "Prenom": "Sarah",
+        "Mail": "sarahbergere10@gmail.com",
+        "Password": "$2y$10$TVGwDAot6GLCwn8l\/cZEfejNXWi9oKGVzipUHth68GH41pKKL71x6",
+        "Sexe": "Femme",
+        "Naissance": "2002-12-10",
+        "Adresse": "Avenue du parc",
+        "Metier": "Etudiante",
+        "code_client": "629375ba3f63b1.00930076",
+        "historique": "<br><br><u><b>Nom du produit<\/b><\/u> : Sandwich de la mer<br><u><b>Quantit\u00e9<\/b><\/u> : 4_"
+    }
+]

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Categorie>
+    <Patisserie id="1">
+        <Produit> 
+            <nom>Charlotte au fraises</nom>
+            <reference>1</reference>
+            <description>Gâteau composé de boudoir entourant un douce crème composé d'une mascarpone sucré melangé à la confiture de fraise.</description>
+            <code>P1</code>
+            <image>img/charlotte400-min.png</image>
+            <stock>97</stock>
+            <prix>27.90 euros</prix>
+            <ingredients>Boudoir, Fraises, Crème liquide, Mascarpone, Sucre glace, Confiture de fraise</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Tarte aux pommes</nom>
+            <reference>2</reference>
+            <description>Recette traditionnelle de tarte aux pommes,faite maison avec des pommes issues de l'agriculture biologique</description>
+            <code>P2</code>
+            <image>img/tartePommes400-min.jpg</image>
+            <stock>97</stock>
+            <prix>18.80 euros</prix>
+            <ingredients>Pâte feuilletée, Pomme, Oeufs, Sucre, Crème liquide, Cannelle, Sucre vanillé</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Profiteroles</nom>
+            <reference>3</reference>
+            <description>Une recette de profiteroles maison, des choux croquant et fondant qui feront ravir vos papilles.</description>
+            <code>P3</code>
+            <image>img/Profiteroles400-min.jpg</image>
+            <stock>98</stock>
+            <prix>2.80 euros</prix>
+            <ingredients>Lait, Eau, Sel, Sucre, Oeufs, Farine, Beurre, Sucre, Chocolat</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Milles feuilles</nom>
+            <reference>4</reference>
+            <description>Le mille feuilles, un classique de la patisserie qui fait toujours son effet avec sa crème vanillé et sa beauté.</description>
+            <code>P4</code>
+            <image>img/mille400-min.jpg</image>
+            <stock>100</stock>
+            <prix>11.90 euros</prix>
+            <ingredients>Farine, Sel, Eau, Beurre, Oeufs, Lait, Sucre</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Eclair</nom>
+            <reference>5</reference>
+            <description>Un classique dont on ne se lasse pas. Cette pâte à chou faites par nos soins va vous faire plaisir !</description>
+            <code>P5</code>
+            <image>img/Eclair400-min.jpg</image>
+            <stock>100</stock>
+            <prix>2.00 euros</prix>
+            <ingredients>Eau, Lait, Sel, Sucre, Beurre, Farine, Oeufs, Fécule de maïs, Cacao, Chocolat, Crème liquide</ingredients>
+        </Produit>
+    </Patisserie>
+    <Viennoiserie id="2">
+        <Produit> 
+            <nom>Pain au chocolat</nom>
+            <reference>6</reference>
+            <description>Pain au chocolat feuilleté avec un chocolat d'exception fait par nos meilleurs artisants.</description>
+            <code>V1</code>
+            <image>img/painchoco400-min.png</image>
+            <stock>100</stock>
+            <prix>1.10 euros</prix>
+            <ingredients>Beurre, Levure fraîche, Eau, Farine, Sucre, Sel, Chocolat</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Pain au raisin</nom>
+            <reference>7</reference>
+            <description>L'alliance d'une magnifique et croquante pâte brisée, de crème et de raisins parfaitement choisi.</description>
+            <code>V2</code>
+            <image>img/raisin400-min.png</image>
+            <stock>100</stock>
+            <prix>1.30 euros</prix>
+            <ingredients>Beurre, Levure, Eau, Sucre, Sel, Farine, Oeufs, Lait </ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Pain Suisse</nom>
+            <reference>8</reference>
+            <description>Cette création suisse reprise par nos ateliers français vous feront frémir. </description>
+            <code>V3</code>
+            <image>img/suisse400-min.jpg</image>
+            <stock>100</stock>
+            <prix>1.70 euros</prix>
+            <ingredients>Farine, Sel, Sucre, Levure, Oeufs, Beurre, Crème pâtissière, Pépites de chocolat</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Croissant</nom>
+            <reference>9</reference>
+            <description>Le classique de la viennoiserie français fait par nos artisants.</description>
+            <code>V4</code>
+            <image>img/croissant400-min.jpg</image>
+            <stock>94</stock>
+            <prix>1.05 euros</prix>
+            <ingredients>Beurre, Levure fraîche, Eau, Farine, Sucre, Sel, Chocolat</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Chausson aux pommes</nom>
+            <reference>10</reference>
+            <description>Croustillant avec une compoté de pomme, parfait à déguster</description>
+            <code>V5</code>
+            <image>img/chausson400-min.png</image>
+            <stock>100</stock>
+            <prix>1.20 euros</prix>
+            <ingredients> Pomme, Beurre, Oeufs, Canelle, Sucre, Pâte feuilletée</ingredients>
+        </Produit>
+    </Viennoiserie>
+    <Sandwich id="3">
+        <Produit> 
+            <nom>Sandwich de la mer</nom>
+            <reference>11</reference>
+            <description>Sandwich au thon frais accompagnée de crudité et d'une mayonnaise maison.</description>
+            <code>S1</code>
+            <image>img/SandThon400-min.png</image>
+            <stock>100</stock>
+            <prix>4.70 euros</prix>
+            <ingredients>Pain, Salade, Tomate, Mayonnaise, Oeuf</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Sandwich Parisien</nom>
+            <reference>12</reference>
+            <description>Le sandwich le plus mangé des français amélioré par notre chef.</description>
+            <code>S2</code>
+            <image>img/SandJamb400-min.png</image>
+            <stock>97</stock>
+            <prix>4.00 euros</prix>
+            <ingredients>Pain, Jambon, Beurre, Fromage</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Sandwich au Bacon</nom>
+            <reference>13</reference>
+            <description>Notre sandwich pleins de saveurs et unique qui va savoir vous séduire.</description>
+            <code>S3</code>
+            <image>img/sandwichBacon400-min.jpeg</image>
+            <stock>100</stock>
+            <prix>4.50 euros</prix>
+            <ingredients>Pain, Bacon, Fromage, Tomates, Salade</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Sandwich au Poulet</nom>
+            <reference>14</reference>
+            <description>Sandwich de poulet accompagné de crudité et d'une mayonnaise maison.</description>
+            <code>S4</code>
+            <image>img/SandPoulet400-min.jpg</image>
+            <stock>100</stock>
+            <prix>5.20 euros</prix>
+            <ingredients>Pain, Poulet, Mayonnaise, Salade, Tomate</ingredients>
+        </Produit>
+        <Produit> 
+            <nom>Sandwich végétarien</nom>
+            <reference>15</reference>
+            <description>Une alternative végétarienne pour le midi pour les amoureux du végétale. </description>
+            <code>S5</code>
+            <image>img/BagelVege400-min.jpeg</image>
+            <stock>100</stock>
+            <prix>4.90 euros</prix>
+            <ingredients>Fromage, Mozzarella, Feta, Epinard, Tomates, Oignon</ingredients>
+        </Produit>
+    </Sandwich>
+</Categorie>

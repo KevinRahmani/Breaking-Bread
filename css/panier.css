@@ -1,0 +1,129 @@
+.resume_panier{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.resume_panier table{
+    height: auto;
+    margin-top: 3%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+th{
+    background-color:#53301c;
+    color: #fff;
+
+}
+
+td{
+    width: 10%;
+    text-align: center;
+    background-color: rgb(241, 235, 235);   
+}
+
+.bg_none{
+    background-color: #fff;
+}
+
+.bg_none button{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: linear-gradient(to bottom right, #c70125, #f0603c);
+    color: white;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px ;
+}
+
+.validation{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    
+}
+
+.validation #valider{
+    margin-left: 5%;
+    width: 80px;
+    height: 40px;
+    background: linear-gradient(to bottom right, #18b131, #8dff60);
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px 10px;
+}
+
+.validation #annuler{
+    width: 80px;
+    margin-left: 36%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #c70125, #fa8650);
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px 10px;
+}
+
+.change_quantity{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+input{
+    background-color: rgb(241, 235, 235);
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button-minus, .button-add {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 70%;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+  
+.button-minus:not([disabled]):hover, .button-add:not([disabled]):hover, #annuler:not([disabled]):hover, .bg_none button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+#valider:not([disabled]):hover{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(23, 228, 33, 0.5), .125rem .125rem 1rem rgba(28, 199, 142, 0.5);
+}
+
+.resume_panier #erreur
+{
+    width: 100%;
+    margin-top: 3%;
+    padding-left: 25%;
+    color: red;
+}
+
+.resume_panier #erreur a{
+    color: orange;
+}

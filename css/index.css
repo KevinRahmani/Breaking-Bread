@@ -1,0 +1,121 @@
+/*PARTIE DIV GENERALE*/
+
+/*side bar*/
+
+.rightpart
+{
+    display:flex;
+    flex-wrap:wrap;
+    width:95%;
+    height:100%;
+}
+
+
+.rightpart section
+{
+    border: solid #53301c 3px;
+    margin:2%;
+}
+
+.children:nth-of-type(1) 
+{
+    flex:1 100%;
+}
+
+.children:nth-of-type(2) 
+{
+    flex:1;
+}
+
+.children:nth-of-type(3) 
+{
+    flex:1;
+}
+
+.slider
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slider img
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    opacity: 0;
+    transition: opacity .7s;
+    z-index: 1;
+}
+
+.slider img.active, .slider img.active2, .slider img.active3
+{
+    opacity: 1;
+}
+
+.suivant, .precedent, .suivant2, .precedent2, .suivant3, .precedent3
+{
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.suivant
+{
+    right: 1rem;
+}
+
+.precedent
+{
+    left: 1rem;
+}
+
+.suivant2, .suivant3
+{
+    right: 0.5rem;
+}
+
+.precedent2, .precedent3
+{
+    left: 0.5rem;
+}
+
+.promotion
+{
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    font-size: 25px;
+    top: 75%;
+    left: 27%;
+    font-weight:700;
+}
+
+.nouveaute
+{
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    top: 85%;
+    left: 35%;
+    font-weight:900;
+}
+
+.best-seller
+{
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    top: 85%;
+    left: 35%;
+    font-weight:900;
+}
